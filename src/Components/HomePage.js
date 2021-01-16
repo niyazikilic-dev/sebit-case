@@ -98,10 +98,11 @@ await setDetailId(post.id)
     <Dialog
         open={open}
         onClose={handleClose}
-        aria-labelledby="alert-dialog-title"
-        aria-describedby="alert-dialog-description"
+        aria-labelledby="detail-dialog-title"
+        aria-describedby="detail-dialog-description"
+        maxWidth={'md'}
       >
-        <DialogTitle id="alert-dialog-title">{"Post Detail"}</DialogTitle>
+        <DialogTitle id="detail-dialog-title">{"Post Detail"}</DialogTitle>
         <DialogContent>
           <DialogContentText id="alert-dialog-description">
           {
